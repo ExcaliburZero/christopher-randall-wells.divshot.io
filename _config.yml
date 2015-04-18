@@ -13,3 +13,7 @@ markdown: kramdown
 # Ignore Divshot file
 exclude:
   - divshot.json
+
+# Gems
+gems:
+  - jekyll-sitemap # Generate sitemap for website
