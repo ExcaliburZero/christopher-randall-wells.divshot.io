@@ -1,0 +1,15 @@
+{
+    "@context" : "http://schema.org",
+    "@type" : "Person",
+    "givenName" : "Christopher",
+    "additionalName" : "Randall",
+    "gender" : "male",
+    "familyName" : "Wells",
+    "birthDate" : "1997-08-04",
+    "nationality" : "United States",
+    "url" : "{{ site.url }}",
+    "email" : "{{ site.email }}",
+    "sameAs" : [
+        "https://github.com/{{ site.github_username }}"
+    ]
+},
