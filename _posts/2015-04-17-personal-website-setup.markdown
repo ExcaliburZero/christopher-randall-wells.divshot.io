@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Setting up a Personal Website on a Budget of Zero"
+author: "Christopher Randall Wells"
 date:   2015-04-17 19:34:00
 categories: webdesign jekyll git github divshot
 ---
