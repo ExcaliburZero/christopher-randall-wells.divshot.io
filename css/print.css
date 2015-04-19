@@ -1,0 +1,4 @@
+/** Main elements that should not be shown when printing **/
+.site-header, .site-footer, .post-categories {
+    display: none;
+}
