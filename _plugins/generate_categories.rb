@@ -210,7 +210,7 @@ module Jekyll
         category_dir = GenerateCategories.category_dir(base_dir, category)
         # Make sure the category directory begins with a slash.
         category_dir = "/#{category_dir}" unless category_dir =~ /^\//
-        "<a class='category' href='#{category_dir}/'>#{category}</a>"
+        "<li class='category'><a class='category-link' href='#{category_dir}/'>#{category}</a></li>"
       end
 
       case categories.length
@@ -219,7 +219,7 @@ module Jekyll
       when 1
         categories[0].to_s
       else
-        categories.join(', ')
+        categories.join('')
       end
     end
 

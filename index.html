@@ -11,9 +11,12 @@ layout: default
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+        <h2 class="main-page-post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="post-categories">
+            <ul>{{ post.categories | category_links }}</ul>
+        </span>
         <div class="post-exerpt">{{ post.excerpt }}</div>
         <div class="read-more">
           <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>

@@ -238,13 +238,29 @@
 /**
  * Main page
  */
- .post-exerpt {
-     font-size: 16px;
-     margin: 10px;
- }
+.post-exerpt {
+    font-size: 16px;
+    margin: 10px;
+}
 
- .read-more {
-     font-size: 18px;
-     width: 100%;
-     text-align: right;
- }
+.read-more {
+    font-size: 18px;
+    width: 100%;
+    text-align: right;
+}
+
+.main-page-post-title {
+    margin-bottom: 5px;
+}
+
+.category {
+    display: inline;
+    list-style-type: none;
+    padding: 2px;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background: lightgrey;
+    font-size: $small-font-size;
+}
