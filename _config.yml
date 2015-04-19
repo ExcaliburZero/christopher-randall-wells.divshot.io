@@ -7,6 +7,9 @@ url: "http://christopher-randall-wells.divshot.io" # the base hostname & protoco
 twitter_username: ExcaliburZero_Z
 github_username:  ExcaliburZero
 
+# Set post urls to not use categories
+permalink: /:year/:month/:day/:title.html
+
 # Build settings
 markdown: kramdown
 
