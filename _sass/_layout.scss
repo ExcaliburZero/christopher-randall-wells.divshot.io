@@ -236,6 +236,25 @@
 }
 
 /**
+ * Category pages
+ */
+.category-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: $grey-color-light;
+    padding: 5px;
+}
+
+.category-post-date {
+    background: lightgrey;
+    display: inline-block;
+    padding: 0px 4px 0px 4px;
+}
+
+.category-post-title {
+}
+
+/**
  * Main page
  */
 .post-exerpt {
