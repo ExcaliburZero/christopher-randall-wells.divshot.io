@@ -283,3 +283,17 @@
     background: lightgrey;
     font-size: $small-font-size;
 }
+
+/**
+ * About page
+ */
+.about-photo-box {
+    float: right;
+    width: 20%;
+    background: lightgrey;
+    padding: 5px;
+}
+
+.about-photo {
+    width: 100%;
+}
