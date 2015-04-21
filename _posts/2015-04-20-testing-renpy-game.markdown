@@ -24,26 +24,11 @@ After you have gotten your game's source code on Github, you are going to want t
 
 Next you are going to want to make a ".travis.yml" file for the repository. The one I used for a game I was working on (Ganbatte) is below:
 
-{% gist 1e79f2077241c88dec4b %}
-
-The script that I used should be able to be easily adapted for your game. But you should replace all instances of "ganbatte" with the name of your repository. For instance if your repository was "user123/fun_visual_novel", then you would change all instances of "ganbatte" to "fun_visual_novel".
-
-I will now go over what the different parts of the script do.
-
-### Language declaration
-~~~
+{% highlight yaml %}
 language: python
 python:
-    - "2.7"
-~~~
-{: .language-yml}
-
-This section of the script lets Travis CI know to use Python 2.7 when testing code for the game. This section is not necessarily needed, but may come in handy if you want to run anything related to Ren'Py using Python.
-
-Note that if you do not include a language declaration like this one, Travis CI will default to Ruby as the language it loads by default.
-
-### Install commands
-~~~
+  - "2.7"
+# command to install dependencies
 install:
   - cd ..
   - wget http://www.renpy.org/dl/6.99.1/renpy-6.99.1-sdk.tar.bz2
@@ -51,16 +36,42 @@ install:
   - rm renpy-6.99.1-sdk.tar.bz2
   - mv renpy-6.99.1-sdk renpy
   - cd renpy
-~~~
-{: .language-yml}
+# command to run tests
+script: ./renpy.sh "../ganbatte/" lint && ./renpy.sh launcher distribute "../ganbatte/"
+{% endhighlight %}
+
+The script that I used should be able to be easily adapted for your game. But you should replace all instances of "ganbatte" with the name of your repository. For instance if your repository was "user123/fun_visual_novel", then you would change all instances of "ganbatte" to "fun_visual_novel".
+
+I will now go over what the different parts of the script do.
+
+### Language declaration
+{% highlight yaml %}
+language: python
+python:
+    - "2.7"
+{% endhighlight %}
+
+This section of the script lets Travis CI know to use Python 2.7 when testing code for the game. This section is not necessarily needed, but may come in handy if you want to run anything related to Ren'Py using Python.
+
+Note that if you do not include a language declaration like this one, Travis CI will default to Ruby as the language it loads by default.
+
+### Install commands
+{% highlight yaml %}
+install:
+  - cd ..
+  - wget http://www.renpy.org/dl/6.99.1/renpy-6.99.1-sdk.tar.bz2
+  - tar xf renpy-6.99.1-sdk.tar.bz2
+  - rm renpy-6.99.1-sdk.tar.bz2
+  - mv renpy-6.99.1-sdk renpy
+  - cd renpy
+ {% endhighlight %}
 
 This section of the code tells Travis CI to install Ren'Py. This specific implementation of the script has Travis CI install Ren'Py 6.99.1 . You can change the version of Ren'Py that it installs by changing the download link in the "wget" statement and the names of the "renpy-6.99.1-sdk" and "renpy-6.99.1-sdk.tar.bz2" folders to match the appropriate names of the corresponding folders in the version of Ren'Py that you want to use.
 
 ### Test command
-~~~
+{% highlight yaml %}
 script: ./renpy.sh "../ganbatte/" lint && ./renpy.sh launcher distribute "../ganbatte/"
-~~~
-{: .language-yml}
+{% endhighlight %}
 
 This section of the code is what actually tests the game. First it runs the game through Lint via the Ren'Py Launcher "./renpy.sh". Then if it passes through the Lint script it attempts to build the game.
 
