@@ -11,5 +11,6 @@ task :test do
 		],
 		:verbose => true,
 		:check_favicon => true,
+		:check_html => true,
 	}).run
 end
