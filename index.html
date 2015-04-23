@@ -15,7 +15,8 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <span class="post-categories">
-            <ul>{{ post.categories | category_links }}</ul>
+            <i class="icon-label"></i>
+            <ul class="main-page-category-list">{{ post.categories | category_links }}</ul>
         </span>
         <div class="post-exerpt">{{ post.excerpt }}</div>
         <div class="read-more">
