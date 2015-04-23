@@ -11,7 +11,7 @@
 
       <div class="trigger">
         {% for page in site.pages %}{% if page.title %}{% if page.on_header %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}{% if page.icon %} <i class="{{ page.icon }}"></i>{% endif %}</a>
         {% endif %}{% endif %}{% endfor %}
       </div>
     </nav>
