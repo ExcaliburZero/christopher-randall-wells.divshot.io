@@ -1,0 +1,9 @@
+{
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "author" : "Christopher Randall Wells",
+    "headline": "{{ page.title }}",
+    "image": "{{ page.image }}",
+    "datePublished": "{{ page.date }}",
+    "description": "{{ page.excerpt }}"
+},
