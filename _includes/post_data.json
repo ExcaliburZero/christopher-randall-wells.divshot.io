@@ -1,9 +1,9 @@
 {
     "@context" : "http://schema.org",
     "@type" : "BlogPosting",
-    "author" : "Christopher Randall Wells",
+    "author" : "{{ page.author }}",
     "headline": "{{ page.title }}",
-    "image": "{{ page.image }}",
+    "image": "{{ site.url }}{{ page.image }}",
     "datePublished": "{{ page.date }}",
     "description": "{{ page.excerpt }}"
 },
