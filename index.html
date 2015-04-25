@@ -18,6 +18,9 @@ layout: default
             <i class="icon-label"></i>
             <ul class="main-page-category-list">{{ post.categories | category_links }}</ul>
         </span>
+        <div class="main-page-post-image-box">
+            <img class="post-image" src="{{ post.image }}" alt="{{ post.title }}" />
+        </div>
         <div class="post-exerpt">{{ post.excerpt }}</div>
         <div class="read-more">
           <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
