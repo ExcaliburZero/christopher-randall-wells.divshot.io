@@ -2,6 +2,7 @@
 layout: post
 title:  "Automatically testing a Ren'Py game using Travis CI"
 author: "Christopher Randall Wells"
+image: "/images/travis_ci_with_renpy.png"
 date:   2015-04-20 21:45:00
 categories: github travisci renpy
 ---
