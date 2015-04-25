@@ -5,5 +5,5 @@
     "headline": "{{ page.title }}",
     "image": "{{ site.url }}{{ page.image }}",
     "datePublished": "{{ page.date }}",
-    "description": "{{ page.excerpt }}"
+    "description": "{{ page.excerpt | strip_html }}"
 },
