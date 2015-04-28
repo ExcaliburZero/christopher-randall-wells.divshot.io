@@ -4,7 +4,7 @@ title:  "Automatically testing a Ren'Py game using Travis CI"
 author: "Christopher Randall Wells"
 image: "/images/travis_ci_with_renpy.png"
 date:   2015-04-20 21:45:00
-categories: github travisci renpy
+categories: github travis-ci renpy
 ---
 Recently I was working on making a visual novel with a few other people using the [Ren'Py](http://www.renpy.org/) visual novel engine. While working on the game, I realized that I might be able to automate some of the testing of it using [Travis CI](https://travis-ci.org). After a bit of Google searching and a good bit of trial and error, I was able to put together a script that would allow for automated testing of the game using the Lint script that Ren'Py provides.
 

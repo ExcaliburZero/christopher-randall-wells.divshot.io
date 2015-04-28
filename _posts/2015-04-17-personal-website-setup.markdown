@@ -4,7 +4,7 @@ title:  "Setting up a Personal Website on a Budget of Zero"
 author: "Christopher Randall Wells"
 image: "/images/personal_website_on_budget.png"
 date:   2015-04-17 19:34:00
-categories: webdesign jekyll git github divshot
+categories: web-design jekyll git github divshot
 ---
 Recently I decided to make myself a personal website, as I figured that it would become useful as I entered college and eventually in my career as well. Unfortunately, as I was a high school senior who wasn't really into spending money on the internet, I had to do so in a way that was free, but still looked decently professional. Throughout the process of researching for and working on my website I learned a little bit about making personal websites on a budget of zero dollars and zero cents.
 
