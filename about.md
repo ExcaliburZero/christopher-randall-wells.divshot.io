@@ -10,4 +10,4 @@ icon: icon-information_black
 </div>
 
 {::options parse_block_html="true" /}
-My name is Christopher Randall Wells, and I am an amateur coder. I am currently a high schooler at Columbia High School, however I will be attending SUNY Oneonta starting in the Fall of 2015.
+My name is Christopher Randall Wells, and I am an aspiring computer programmer. I am currently a high schooler at Columbia High School, however I will be attending [SUNY Oneonta](http://www.oswego.edu/) starting in the Fall of 2015 to persue a degree in Computer Science.
