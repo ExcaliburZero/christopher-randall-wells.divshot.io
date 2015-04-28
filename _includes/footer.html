@@ -24,9 +24,7 @@
               <span class="username">GitHub</span>
             </a>
           </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
+          {% endif %}{% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
               <span class="icon  icon--twitter">
@@ -34,6 +32,16 @@
               </span>
 
               <span class="username">Twitter</span>
+            </a>
+          </li>
+          {% endif %}{% if site.stackoverflowcareers_username %}
+          <li>
+            <a href="https://careers.stackoverflow.com/{{ site.stackoverflowcareers_username }}">
+              <span class="icon  icon--stackoverflowcareers">
+                <i class="icon-paperplane_black footer-social-icon"></i>
+              </span>
+
+              <span class="username">Stack Careers</span>
             </a>
           </li>
           {% endif %}

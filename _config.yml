@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://christopher-randall-wells.divshot.io" # the base hostname & protocol for your site
 twitter_username: ExcaliburZero_Z
 github_username:  ExcaliburZero
+stackoverflowcareers_username: christopherrandallwells
 
 # Set post urls to not use categories
 permalink: /blog/:year/:month/:day/:title.html
