@@ -5,7 +5,7 @@ permalink: /projects/
 on_header: yes
 icon: icon-file_alt
 ---
-In my spare time I have wored on several different, mostly open source, projects. These are some of the various projects that I have worked on.
+In my spare time I have worked on several different, mostly open source, projects. These are some of the various projects that I have worked on.
 
 ## Jekyll Helper
 <div class="about-photo-box">
