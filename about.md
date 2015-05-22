@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 on_header: yes
-icon: icon-information_black
+icon: icon-credit_card
 ---
 <div class="about-photo-box">
     <img class="about-photo" src="/images/photo.jpg" alt="Christopher Randall Wells" />
