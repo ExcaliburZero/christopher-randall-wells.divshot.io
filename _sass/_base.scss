@@ -1,4 +1,25 @@
 /**
+ * Page body
+ */
+body {
+    background-image: url("/images/square_bg.png");
+}
+
+/**
+ * Page header
+ */
+.site-header {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/**
+ * Page footer
+ */
+.site-footer {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/**
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
