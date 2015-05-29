@@ -2,3 +2,8 @@
 .site-header, .site-footer, .post-categories {
     display: none;
 }
+
+/** Remove flex to make sure that all pages of a post are printable **/
+body {
+    display: block;
+}
