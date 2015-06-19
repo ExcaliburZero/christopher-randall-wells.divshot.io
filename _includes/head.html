@@ -7,6 +7,9 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="icon" type="image/png" href="/images/favicon.png">
 
+  <link href="/css/bootstrap.css" rel="stylesheet">
+  <link href="/css/bootstrap-theme.css" rel="stylesheet">
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">{% if page.categories %}
   <link rel="stylesheet" href="{{ "/css/print.css" | prepend: site.baseurl }}" type="text/css" media="print" />{% endif %}
   <link rel="stylesheet" href="/css/mfglabs_iconset.css">
