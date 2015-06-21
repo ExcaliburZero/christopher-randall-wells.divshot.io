@@ -163,8 +163,21 @@
 
 .footer-notice {
     float: left;
+    text-align: center;
+    width: 100%;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+}
+
+.footer-notice-entry {
+    display: inline;
+    border-right: 1px solid $grey-color;
+    padding-right: 5px;
+}
+
+.footer-notice-end {
+    display: inline;
+    padding-right: 5px;
 }
 
 
