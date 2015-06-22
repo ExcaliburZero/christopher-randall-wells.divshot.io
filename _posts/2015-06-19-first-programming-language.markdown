@@ -30,7 +30,7 @@ As such, one of the most important qualities that a first programming language s
 
 A language can be simple in a few different ways. Perhaps the more important such ways are through its visual simplicity and syntax specificity.
 
-The visual simplicity of a programming language refers to how simple a programming language looks visually. Visually simplistic programming languages will use less, more straight forward code than other less visually simplistic programming languages. Starting with a more visually simplistic programming language will help to make learning to programming seem less intimidating, and thus make it more likely for one to pick up programming.
+The visual simplicity of a programming language refers to how simple a programming language looks visually. Visually simplistic programming languages will use less, more straight forward code than other less visually simplistic programming languages. Starting with a more visually simplistic programming language will help to make learning to program seem less intimidating, and thus make it more likely for one to pick up programming.
 
 In general to determine the visual simplicity of a programming language your best bet is to use the Hello World test. Check how many lines it takes to write a program that simply prints out the classic "Hello World". If it takes more than a few lines to do so, then the language is probably not simplistic enough to make a good first programming language.
 
@@ -42,7 +42,7 @@ Syntax specificity is an important thing to take into account when attempting to
 
 Having a simple, less stringent syntax helps to allow one to focus on learning the concepts of computer programming rather than having to worry too much about syntax issues that are more specific to that language. This also helps to make programming more fun, as it reduces the stress of having error messages popping up quite often.
 
-The visual and syntactical simplicity of a programming language are small but important qualities of a good first programming language, as they shape the first impression that the user develops of programming. By learning a first programming language that has good simplicity helps to make programming seem less intimidating, and allow one to be able to more fully focus on learning and enjoying programming.
+The visual and syntactical simplicity of a programming language are small but important qualities of a good first programming language, as they shape the first impression that the user develops of programming. By learning a first programming language that has good simplicity helps to make programming seem less intimidating, and allows one to be able to more fully focus on learning and enjoying programming.
 
 ## Low Concept Overhead
 One of the main issues I tend to find with some programming languages that make them less than ideal for being a first programming language is that they have too much concept overhead. Essentially they rely on having the user learn more than a handful of concepts before they can even write their first program.
@@ -69,8 +69,8 @@ Having too much concept overhead in the early learning of a programming language
 Thus starting out with a first programming language that has very low concept overhead can help to make beginning to learn programming easier, by allowing one to more quickly pick up the language and begin coding in it as quickly as possible.
 
 ## Conclusion
-A good first programming language should use both simplicity and low concept overhead in order to make learning programming more easy and enjoyable. Through learning a first programming language, one can begin to develop and an interest and love for coding. Thus, learning a first programming language should be made as simple as possible, so that more people are able to give programming a good try and hopefully develop and interest in it.
+A good first programming language should use both simplicity and low concept overhead in order to make learning programming more easy and enjoyable. Through learning a first programming language, one can begin to develop an interest and love for coding. Thus, learning a first programming language should be made as simple as possible, so that more people are able to give programming a good try and hopefully develop an interest in it.
 
-When it comes down to it through, a first programming language is simply just a stepping stone. Many different languages come in and out of style as new, simpler languages are created to be able to better solve problems. The truly important thing about becoming a programmer is not becoming proficient in a specific language, but becoming acquainted with programming in general.
+When it comes down to it though, a first programming language is simply just a stepping stone. Many different languages come in and out of style as new, simpler languages are created to be able to better solve problems. The truly important thing about becoming a programmer is not becoming proficient in a specific language, but becoming acquainted with programming in general.
 
 In the end, it doesn't matter what programming language you choose to be your first programming language. Odds are that you are not always going to be coding just with your first language. What matters is developing a genuine interest in programming, regardless of what language your are using.
