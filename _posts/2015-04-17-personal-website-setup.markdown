@@ -1,5 +1,6 @@
 ---
 layout: post
+type: article
 title:  "Setting up a Personal Website on a Budget of Zero"
 author: "Christopher Randall Wells"
 image: "/images/personal_website_on_budget.png"

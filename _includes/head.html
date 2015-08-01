@@ -12,9 +12,20 @@
   <link rel="stylesheet" href="/css/mfglabs_iconset.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  <link rel="author" href="/humans.txt" />
+  <link rel="author" href="/humans.txt" />{% if page.type == "article" %}
 
-  <meta name="google-site-verification" content="531FE7t2Y5A6VbxrLTD6cZlegFdsJPRUjOJAXD6Rd_0" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ExcaliburZero_Z" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+
+  {% endif %}<meta name="google-site-verification" content="531FE7t2Y5A6VbxrLTD6cZlegFdsJPRUjOJAXD6Rd_0" />
 
   <script type="application/ld+json">
     {% include structured_data.json %}

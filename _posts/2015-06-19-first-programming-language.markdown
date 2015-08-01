@@ -1,5 +1,6 @@
 ---
 layout: post
+type: article
 title:  "Qualities of a Good First Programming Language"
 author: "Christopher Randall Wells"
 image: "/images/first_programming_language.png"
