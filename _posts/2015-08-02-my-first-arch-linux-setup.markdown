@@ -25,4 +25,4 @@ First I should note the hardware of the laptop, as some of the specifics of the 
 
 The laptop was several years old at the time, and was noticeably slow in running its installation of Windows XP. With an SSD space of only 8 GB there was not much room for many programs or files. Luckily it did however have an empty 16 GB SD card still inside it, so I could use that to supplement the small SSD.
 
-I made certain to note the wifi card and ethernet port used by the laptop, because those two components proved to be the most difficult part of getting Arch Linux installed and working.
+I made certain to note the wifi card and ethernet port used by the laptop, because those two components proved to be the most difficult part of getting Arch Linux installed and working. If you are not familiar with the installation process for Arch Linux, it requires the use of an internet connection in order to install most of the packages used by the system, as the live cd does not have those packages in order to keep it at a very small file size (~700 MB for both the 32x and 64x on one disk).
