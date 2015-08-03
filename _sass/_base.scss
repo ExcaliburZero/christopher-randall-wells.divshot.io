@@ -103,6 +103,23 @@ li {
 }
 
 /**
+ * Tables
+ */
+.post-content table {
+    margin: auto;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    border: 1px solid #AAAAAA;
+}
+
+.post-content td {
+    padding: 5px;
+}
+
+.post-content tr:nth-child(even) { background: $grey-color-light; }
+.post-content tr:nth-child(odd) { background: #FFFFFF; }
+
+/**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
