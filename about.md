@@ -28,10 +28,16 @@ Nowadays I am studying Computer Science at SUNY Oswego.
 ## Languages
 The following are the programming languages that I know to some degree.
 
+### Java
+Java was the first programming language that I learned, and it is the one which I am most proficient in. However, I have yet to make any notable projects using Java currently.
+
 ### Python
 Python is the programming language that I am most skilled in. I have sort of a beginner's proficiency in it, but am able to learn more about it as I use it. The largest project I have used Python in is [Jekyll Helper](https://excaliburzero.github.io/jekyll-helper/).
 
 I learned most of my knowledge of Python through Codeacademy's tutorials on Python, as well as through my work on various side-projects in which I used Python.
+
+### C
+C is a language which I am slightly familiar with. I began learning C through a programming course I took in high school. I have worked with C a bit since then, but I am not very proficient in it.
 
 ### Lua
 Lua is a programming language that I am somewhat familiar with. I have worked with Lua mainly through making mods and source contributions to the open source game Minetest.
